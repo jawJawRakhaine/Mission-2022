@@ -1,5 +1,6 @@
 body{
     background-color: #E5E5E5;
+    font-family: Inter;
 }
 .flexible-container{
     display: flex;
@@ -13,8 +14,7 @@ body{
 }
 h1{
     margin-left: 10px;
-    font-family: 'Yeseva One', cursive;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 60px;
     line-height: 30px;
 }
@@ -24,8 +24,7 @@ h1{
 span{
     color: #FFAD5A;
 }
-.hero-section-p{
-    font-family: Poppins;
+p{
     font-weight: 400;
     font-size: 18px;
     line-height: 28px;
@@ -34,14 +33,16 @@ span{
     width: 50%;
 }
 .half-width img{
-    width: 70%;
+    width: 80%;
+    height: auto;
+    margin-left: 15%;
 }
 .hero-img img{
     margin-left: 30%;
 }
 .btn{
     background-color: #FF5959;
-    font-family: Poppins;
+    /* font-family: Poppins; */
     font-weight: 500;
     font-size: 16px;
     border-radius: 5px;
@@ -58,10 +59,13 @@ span{
 } */
 .scroll-down{
     margin-top: 20px;
+    font-size: 20px;
 }
 .mission-2022, .app-txt{
     text-align: center;
-    font-family: Poppins;
+    font-weight: bold;
+    font-size: 48px;
+    /* font-family: Poppins; */
 }
 .card{
     width: 80%;
@@ -80,7 +84,7 @@ span{
     background: rgba(79, 157, 166, 0.1);
     border-radius: 26px;
 }
-.vission{
+.vision{
     padding: 20px;
     width: 30%;
     margin: 20px;
@@ -99,8 +103,8 @@ span{
     margin: 0 auto;
 } */
 .app img{
-    width: 400px;
-    height: auto;
+    width: 50%;
+    height: auto;margin-left: 100px;
 }
 footer{
     width: 100%;
