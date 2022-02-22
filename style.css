@@ -3,7 +3,9 @@ body{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
 .heading{
     border-left: 3px solid #FF5959;
@@ -16,9 +18,9 @@ h1{
     font-size: 60px;
     line-height: 30px;
 }
-.hero{
+/* .hero{
     margin-left: 170px;
-}
+} */
 span{
     color: #FFAD5A;
 }
@@ -30,11 +32,12 @@ span{
 }
 .half-width{
     width: 50%;
-    padding-left: 5%;
 }
 .half-width img{
     width: 70%;
-    height: auto;
+}
+.hero-img img{
+    margin-left: 30%;
 }
 .btn{
     background-color: #FF5959;
@@ -46,15 +49,17 @@ span{
     color: white;
     padding: 10px;
     text-decoration: none;
-}
-.explore-btn{
     display: inline-block;
     margin-top: 20px;
 }
+/* .explore-btn{
+    display: inline-block;
+    margin-top: 20px;
+} */
 .scroll-down{
     margin-top: 20px;
 }
-.mission-2022{
+.mission-2022, .app-txt{
     text-align: center;
     font-family: Poppins;
 }
@@ -88,4 +93,26 @@ span{
     margin: 20px;
     background: #FFF4D6;
     border-radius: 26px;
+}
+/* .develop img{
+    width: 40%;
+    margin: 0 auto;
+} */
+.app img{
+    width: 400px;
+    height: auto;
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 177px;
+    background: #0B0D17;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.footer-txt {
+    color: white;
 }
