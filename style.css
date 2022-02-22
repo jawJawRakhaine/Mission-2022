@@ -1,0 +1,91 @@
+body{
+    background-color: #E5E5E5;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.heading{
+    border-left: 3px solid #FF5959;
+    margin-top: 140px;
+}
+h1{
+    margin-left: 10px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 30px;
+}
+.hero{
+    margin-left: 170px;
+}
+span{
+    color: #FFAD5A;
+}
+.hero-section-p{
+    font-family: Poppins;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 70%;
+    height: auto;
+}
+.btn{
+    background-color: #FF5959;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+.explore-btn{
+    display: inline-block;
+    margin-top: 20px;
+}
+.scroll-down{
+    margin-top: 20px;
+}
+.mission-2022{
+    text-align: center;
+    font-family: Poppins;
+}
+.card{
+    width: 80%;
+    height: 376px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.card img{
+    width: 141px;
+    height: 141px;
+}
+.mission{
+    padding: 20px;
+    width: 30%;
+    margin: 20px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 26px;
+}
+.vission{
+    padding: 20px;
+    width: 30%;
+    margin: 20px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 26px;
+}
+.goals{
+    padding: 20px;
+    width: 30%;
+    margin: 20px;
+    background: #FFF4D6;
+    border-radius: 26px;
+}
