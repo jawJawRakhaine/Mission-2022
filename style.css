@@ -61,7 +61,7 @@ p{
     margin-top: 20px;
     font-size: 20px;
 }
-.mission-2022, .app-txt{
+.mission-2022, .app-txt,.location-txt{
     text-align: center;
     font-weight: bold;
     font-size: 48px;
@@ -69,7 +69,6 @@ p{
 }
 .card{
     width: 80%;
-    height: 376px;
     margin: 0 auto;
     padding: 30px;
 }
@@ -98,6 +97,13 @@ p{
     background: #FFF4D6;
     border-radius: 26px;
 }
+/* .develop-section{
+    background-image: url(./images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    padding: 50px;
+} */
 /* .develop img{
     width: 40%;
     margin: 0 auto;
@@ -106,7 +112,9 @@ p{
     width: 50%;
     height: auto;margin-left: 100px;
 }
-footer{
+footer{ 
+    margin: 0;
+    padding: 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -114,8 +122,6 @@ footer{
     height: 177px;
     background: #0B0D17;
     text-align: center;
-    margin: 0;
-    padding: 0;
 }
 .footer-txt {
     color: white;
