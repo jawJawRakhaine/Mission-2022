@@ -1,16 +1,15 @@
 body{
     background-color: #E5E5E5;
-    /* font-family: 'Inter', sans-serif; */
     font-family: 'Quicksand', sans-serif;
 }
-.flexible-container{
+.container{
     display: flex;
     width: 80%;
     margin: 0 auto;
     margin-bottom: 50px;
 }
 .heading{
-    border-left: 3px solid #FF5959;
+    border-left: 4px solid #FF5959;
     margin-top: 140px;
 }
 h1{
@@ -19,20 +18,18 @@ h1{
     font-size: 60px;
     line-height: 30px;
 }
-/* .hero{
-    margin-left: 170px;
-} */
 span{
     color: #FFAD5A;
 }
 p{
-    font-weight: 400;
+    font-weight: 500;
     font-size: 18px;
     line-height: 28px;
+    text-align: justify;
 }
 .half-width{
     width: 50%;
-    margin: 5%;
+    margin: 6%;
 }
 .half-width img{
     width: 80%;
@@ -53,52 +50,51 @@ p{
     display: inline-block;
     margin-top: 20px;
 }
+.btn:hover{
+    background-color: #FFAD5A;
+}
 .scroll-down{
     margin-top: 20px;
     font-size: 20px;
+    font-weight: 500;
 }
-.mission-2022, .app-txt,.location-txt{
+.mission-2022, .app-txt, .location-txt{
     text-align: center;
     font-weight: bold;
     font-size: 48px;
 }
-.card{
+.cards{
     width: 80%;
     margin: 0 auto;
-    padding: 30px;
+    padding: 20px;
 }
-.card img{
+.cards img{
     width: 141px;
     height: 141px;
 }
-.mission{
+.mission, .vision , .goals{
     padding: 20px;
     width: 30%;
     margin: 20px;
-    background: rgba(79, 157, 166, 0.1);
     border-radius: 26px;
+}
+.mission{
+    background: rgba(79, 157, 166, 0.1);
 }
 .vision{
-    padding: 20px;
-    width: 30%;
-    margin: 20px;
     background: rgba(255, 89, 89, 0.1);
-    border-radius: 26px;
 }
 .goals{
-    padding: 20px;
-    width: 30%;
-    margin: 20px;
     background: #FFF4D6;
-    border-radius: 26px;
+}
+.card:hover{
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
 }
 .app img{
-    width: 50%;
-    height: auto;margin-left: 100px;
+    width: 60%;
+    margin-left: 100px;
 }
-footer{ 
-    margin: 0;
-    padding: 0;
+footer{
     width: 100%;
     display: flex;
     justify-content: center;
