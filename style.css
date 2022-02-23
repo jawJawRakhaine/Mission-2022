@@ -6,7 +6,6 @@ body{
     display: flex;
     width: 80%;
     margin: 0 auto;
-    margin-bottom: 50px;
 }
 .heading{
     border-left: 4px solid #FF5959;
@@ -29,11 +28,10 @@ p{
 }
 .half-width{
     width: 50%;
-    margin: 6%;
+    margin: 2% 2%;
 }
 .half-width img{
     width: 80%;
-    height: auto;
 }
 .hero-img img{
     margin-left: 20%;
