@@ -32,22 +32,21 @@ p{
 }
 .half-width{
     width: 50%;
+    margin: 5%;
 }
 .half-width img{
     width: 80%;
     height: auto;
-    margin-left: 15%;
 }
 .hero-img img{
-    margin-left: 30%;
+    margin-left: 20%;
 }
 .btn{
     background-color: #FF5959;
-    /* font-family: Poppins; */
-    font-weight: 500;
+    font-weight: 700;
+    text-transform: uppercase;
     font-size: 16px;
     border-radius: 5px;
-    outline: none;
     color: white;
     padding: 10px;
     text-decoration: none;
