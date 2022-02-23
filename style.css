@@ -33,6 +33,9 @@ p{
 .half-width img{
     width: 80%;
 }
+.half-width h1{
+    line-height: 40px;
+}
 .hero-img img{
     margin-left: 20%;
 }
@@ -90,9 +93,15 @@ p{
 }
 .app img{
     width: 60%;
-    margin-left: 100px;
+    margin-left: 200px;
+    height: auto;
+}
+.location-map{
+    margin-bottom: 10px;
 }
 footer{
+    margin: 0;
+    padding: 0;
     width: 100%;
     display: flex;
     justify-content: center;
