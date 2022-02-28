@@ -32,9 +32,15 @@ p{
 }
 .half-width img{
     width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    transition: 0.5s all linear;
 }
 .half-width h1{
     line-height: 40px;
+}
+img:hover{
+    transform: scale(1.07);
 }
 .hero-img img{
     margin-left: 20%;
@@ -100,8 +106,6 @@ p{
     margin-bottom: 10px;
 }
 footer{
-    margin: 0;
-    padding: 0;
     width: 100%;
     display: flex;
     justify-content: center;
